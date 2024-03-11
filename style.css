@@ -226,19 +226,38 @@ span{
         margin-left: 10px;
     }
 }
-@media(max-width:412px){
+
+@media(max-width:375px){
     .fares{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         position: absolute;
-        bottom: 590px;
-        left: 105px;
+        bottom: 320px; 
+        left: 15px;   
     }
     .j1 h2{
-        font-size: 20px;
+        font-size: 13px;
     }
     .j1{
         margin-top: 170px;
         margin-left: 10px;
     }
 }
+@media(max-width:425px){
+    .fares{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 320px; 
+        left: 120px;   
+    }
+    .j1 h2{
+        font-size: 15px;
+    }
+    .j1{
+        margin-top: 170px;
+        margin-left: 10px;
+    }
+}
+
+
